@@ -1,1 +1,25 @@
+# Julia
+Manifest.toml
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/build.log
+
+# System / IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled / output
+*.o
+*.so
+*.dylib
 *.pdf
+
+# Data / artifacts
+*.nc
+*.hdf5
+*.h5
